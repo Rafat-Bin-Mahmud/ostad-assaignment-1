@@ -51,9 +51,10 @@
 .wrapper .main-content .showcase h1{
     padding-left: 20px;
     color: tomato;
+    margin-bottom: 30px;
 }
-/* .wrapper .main-content .showcase span{
-    margin: 300px;
+ /* .wrapper .main-content .showcase span{
+     margin: 300px;
     position: relative;
 }
 .wrapper .main-content .showcase .left::after{
@@ -63,4 +64,30 @@
     bottom: 0;
     border: 3px solid tomato;
     width: 50%;
-} */
+    margin-top: 10px;
+    margin-bottom: 30px;
+}  */
+hr{
+    width: 55px;
+    height: 14px;
+    background-color: tomato;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+.picture{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    margin-bottom: 30px;
+}
+.picture img{
+    width: 100%;
+}
+.wrapper .main-content .services h1{
+    padding-left: 20px;
+    color: tomato;
+    margin-bottom: 30px;
+}
+.wrapper .main-content .para{
+    padding-left: 20px;
+}
